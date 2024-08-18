@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=yolov8s.pt data="main_data.yaml" epochs=70 imgsz=720 plots=True fliplr=0 auto_augment=none batch=16 dropout=0.3 pretrained=False cos_lr=True close_mosaic=20 resume=False
